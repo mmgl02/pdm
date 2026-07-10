@@ -1,4 +1,4 @@
-This code calibrates and evaluates nested Species Distribution Models (SDMs).
+This code was developped to calibrate and evaluate nested Species Distribution Models (SDMs).
 
 The scripts folder contains one sub-folder per step of modelling, to be run in order. We describe here their content.
 - 1_data_preparation : Download and clean species and environmental data.

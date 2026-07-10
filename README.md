@@ -1,6 +1,6 @@
 This code was developped to calibrate and evaluate nested Species Distribution Models (SDMs).
 
-The scripts folder contains one sub-folder per step of modelling, to be run in order. We describe here their content.
+The "scripts" folder contains one sub-folder per step of modelling, to be run in order. We describe here their content.
 - 1_data_preparation : Download and clean species and environmental data.
 - 2_M1 : Calibrate the coarse-grain model, at 10 km spatial resolution and pluriannual temporal resolution.
 - 3_M2: Calibrate the fine-grain model, at 1 km spatial resolution and annual temporal resolution.

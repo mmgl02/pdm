@@ -12,7 +12,7 @@
 obs_to_grid <- function (obs_dt, grid, resolution, year=F){
   
   # Filter observations at precision uncertainty
-  obs_dt<-obs_dt[coordinateUncertaintyInMeters <= 10000]
+  obs_dt<-obs_dt[coordinateUncertaintyInMeters <= resolution]
   
   # Vectorize
   obs_vec <- vect(
